@@ -16,7 +16,7 @@ Provide JSON body as follows
    }
 
 Where classifier stands for event type, text stands for event message.
-In case classifier provided is not found in the DB, it will save a new Classifier Entity
+In case classifier provided is not found in the DB, a new Classifier Entity is saved.
 
 2) http://localhost:8080/api/events/get   GET
 Pageable interface implements the following parameters:
